@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_material_light">@color/main_blue</color>
+    <color name="primary_dark_material_light">@color/splashscreen_dark</color>
+    <color name="primary_material_light">@color/main_blue</color>
+
+</resources>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
+    <string name="no_data">No data</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_devices">BLE Device Scan</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+
+
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+    <string name="menu_synchronize">Synchro</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_user_name">User name</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_continue">Continue</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- Strings related to sign-in -->
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="title_activity_first_sign_in">FirstSignInActivity</string>
+
+    <string name="signin_username_tooltip">Enter a valid user name</string>
+    <string name="signin_pending_message">Authenticating...</string>
+    <string name="signin_failed">Sign in failed</string>
+
+    <string name="fail_extra_message_no_internet">Please check your internet connection</string>
+    <string name="fail_extra_message_invalid_credentials">Credentials are incorrect</string>
+
+    <string name="first_sign_in_new_password">New password</string>
+    <string name="first_sign_in_confirm_new_password">Confirm new password</string>
+    <string name="first_sign_in_invalid_password_format">New password must be minimum 8 characters, containing at least one lowercase, one uppercase alphabetical character and one digit</string>
+    <string name="first_sign_in_new_confirm_password_not_matching">New password and password confirmation does not match</string>
+
+    <string name="session_signin_pending_message">"Enter Session..."</string>
+
+    <string name="title_activity_seizure_monitoring">SeizureMonitoringActivity</string>
+    <string name="seizure_monitoring">Monitoring</string>
+
+    <string name="navigation_drawer_open">Epi Project</string>
+    <string name="navigation_drawer_close">Epi Project</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings related to device pairing -->
+    <string name="automatic_pairing_fail">Automatic Device Pairing Fail</string>
+    <string name="device_pairing_button">Connect</string>
+    <string name="default_device_name">No Device Paired</string>
+
+    <!-- Strings related to data syncing -->
+    <string name="push_data_fail">Push data on Cloud failed</string>
+
+    <string name="data_sync_no_signal">Please enable Wifi to sync data</string>
+    <string name="data_sync_low_signal"> Wifi signal is too low to transfer data</string>
+    <string name="last_sync">Last Synchro: \n</string>
+    <string name="remaining_packet_sync">Packets to transfer: </string>
+
+    <!-- Strings related to seizure report panel -->
+    <string name="title_seizure_report">Seizure Report</string>
+    <string name="seizure_intensity_small">Small</string>
+    <string name="seizure_intensity_medium">Medium</string>
+    <string name="seizure_intensity_big">Big</string>
+
+    <string name="seizure_reports_comments">Comments</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="confirm_button">Confirm</string>
+
+    <string name="default_value">---</string>
+    <string name="heartbeat_metric_anomaly">Bad heat beat detection</string>
+
+    <string name="menu_monitoring">Monitoring</string>
+    <string name="menu_mobile_app">Mobile application</string>
+    <string name="menu_contact">Contact</string>
+    <string name="menu_cgu">Terms and conditions</string>
+    <string name="menu_general_information">General information</string>
+    <string name="menu_disconnect_devices">Disconnect devices</string>
+    <string name="menu_leave_app">Leave application</string>
+
+    <string name="title_activity_device_paring" >Device Pairing Activity</string>
+    <string name="title_activity_device_scan" >Device Scan Activity</string>
+    <string name="device_scan_start_monitoring" >Start Experiment</string>
+    <string name="device_scan_text">Devices scan</string>
+    <string name="device_scan_scan_and_detect">Scan and detect your connected devices</string>
+
+    <string name="next_button">Next question</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="additional_question_treatment_observance">Did you follow your treatment ?</string>
+    <string name="additional_question_treatment_observance_answer_yes">Yes</string>
+    <string name="additional_question_treatment_observance_answer_low">Yes, but with some misses</string>
+    <string name="additional_question_treatment_observance_answer_no">No, I never take it</string>
+
+    <string name="additional_question_sleep_night">Did you sleep well last night ?</string>
+    <string name="additional_question_sleep_night_answer_well">Yes, very well</string>
+    <string name="additional_question_sleep_night_answer_low">Yes, but with 1 or 2 wake ups</string>
+    <string name="additional_question_sleep_night_answer_no">No, I had insomnia</string>
+
+    <string name="additional_question_high_stress_episode">Did you experienced a very stressful episode today ?</string>
+    <string name="additional_question_fever">Do you have fever ?</string>
+    <string name="additional_question_new_treatment">Did you take new treatment recently ?</string>
+    <string name="additional_question_alcohol_consumption">Did you drink alcohol last night ?</string>
+    <string name="additional_question_alcohol_answer_none">No</string>
+    <string name="additional_question_alcohol_answer_low">Yes, few drinks</string>
+    <string name="additional_question_alcohol_answer_high">Yes, a lot</string>
+
+    <string name="additional_question_late_sleep"> Did you get out late last night ?</string>
+
+    <string name="seizure_completed"> Thanks for reporting this seizure. It will provide very useful information to understand early seizure signs.</string>
+    <string name="additional_questions_completed"> Thanks for completing this questionnaire. It will provide very useful information to seizure anticipation and detection. </string>
+    <string name="give_more_details_about_seizure"> Give more details about your seizure </string>
+
+    <string name="report_seizure_intensity">Report seizure intensity: </string>
+    <string name="report_seizure_date_and_time">Report seizure date and time: </string>
+    <string name="devices_disconnected_info" > Devices has been successfully disconnected </string>
+    <string name="configure_application" > Configure mobile application </string>
+
+    <string name="connect_to_devices">Connect to devices</string>
+    <string name="start_immediately_session">Start immediately session</string>
+    <string name="additional_question_comments">Comments</string>
+</resources>

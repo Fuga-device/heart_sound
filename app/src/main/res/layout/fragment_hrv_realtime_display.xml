@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+    <Button
+        android:id="@+id/start_heart_beat_player"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/splashscreen_light"
+        android:layout_marginTop="40dp"
+        android:text="Start Heart Beat Player"/>
+
+    <Button
+        android:id="@+id/stop_heart_beat_player"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/splashscreen_light"
+        android:layout_marginTop="40dp"
+        android:text="Stop Heart Beat Player"/>
+
+
+    <TextView
+        android:id="@+id/speed_amplify_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speed amplify:"
+        android:layout_marginTop="50dp"
+
+        android:textSize="16dp"
+        android:textColor="@color/main_grey" />
+
+    <com.xw.repo.BubbleSeekBar
+        android:id="@+id/speed_amplify"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:bsb_bubble_color="@color/splashscreen_light"
+        app:bsb_bubble_text_color="@color/white"
+        app:bsb_max="5.0"
+        app:bsb_min="0.5"
+        app:bsb_progress="1.0"
+        app:bsb_second_track_color="@color/splashscreen_light"
+        app:bsb_section_count="50"
+        app:bsb_section_text_position="bottom_sides"
+        app:bsb_show_progress_in_float="true"
+        app:bsb_show_section_text="true"
+        app:bsb_show_thumb_text="true"
+        app:bsb_track_color="@color/splashscreen_light"/>
+
+
+    <TextView
+        android:id="@+id/current_hr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XX"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:textSize="24dp"
+        android:textColor="@color/splashscreen_light" />
+
+    <ListView
+        android:id="@+id/music_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+</LinearLayout>
